@@ -9,6 +9,10 @@ class BREND_health:
 		'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
 	}
 	results_br = []
+	title_hrefs1 = []
+	title_hrefs2 = []
+	title_hrefs3 = []
+	title_hrefs4 = []
 	def br_health(self):
 		full_page = requests.get(self.URL, headers=self.headers)
 		soup = BeautifulSoup(full_page.content, 'html.parser')
