@@ -58,7 +58,6 @@ btn_for_mainmenu_currency = InlineKeyboardMarkup().add(
 #Amway
 btn_for_amway = InlineKeyboardMarkup(row_width=1).add(
 	InlineKeyboardButton('Товары 📦', callback_data='Towar'),
-	InlineKeyboardButton('Карзина 🛒', callback_data='Rubish'),
 	InlineKeyboardButton('Новости 🎥', callback_data='News'),
 	InlineKeyboardButton('Акции 🎁' , callback_data='Sale'))
 btn_for_amway_mainmenu = InlineKeyboardButton(
